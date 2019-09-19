@@ -3,6 +3,7 @@ export default {
     //NavBar
     'app.react.start': 'Реакт старт',
     'app.rest.title': 'Рест',
+    'app.counter.title': 'Счетчик',
     'app.state.title': 'Стейт',
     'app.webSocket.title': 'Вебсокеты',
     'app.upload.title': 'Загрузка',
@@ -16,6 +17,7 @@ export default {
     'app.page.rest.text.first': 'Получаем с сервера данные из базы данных таблицы пользователя.',
     'app.page.rest.text.second': 'Реализована возможность добавления и удаления пользователей.',
     'app.page.websocket.text': 'Обмен сообщениями в стиле WebSocket включая использование STOMP в качестве суб-протокола.',
+    'app.page.counter.text': 'Тест',
 
     // Page Users
     'app.user.table.title': 'Пользователи',

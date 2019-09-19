@@ -10,6 +10,9 @@ export const state = () => `/${publicPath}/state`;
 // Index route
 export const rest = () => `/${publicPath}/rest`;
 
+// Index route
+export const counter = () => `/${publicPath}/counter`;
+
 // Index websocket
 export const webSocket = () => `/${publicPath}/websocket`;
 

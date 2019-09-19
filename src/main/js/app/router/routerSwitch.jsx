@@ -4,6 +4,7 @@ import * as routes from 'app/constants/routes';
 import HomeLayout from 'app/components/pages/home';
 import StateLayout from 'app/components/pages/state';
 import RestLayout from 'app/components/pages/rest';
+import CounterLayout from 'app/components/pages/counter';
 import WebSocketLayout from 'app/components/pages/webSocket';
 import UploadLayout from 'app/components/pages/upload';
 
@@ -12,6 +13,7 @@ export default () => (
         <Route exact path={routes.index()} component={HomeLayout}/>
         <Route exact path={routes.state()} component={StateLayout}/>
         <Route exact path={routes.rest()} component={RestLayout}/>
+        <Route exact path={routes.counter()} component={CounterLayout}/>
         <Route exact path={routes.webSocket()} component={WebSocketLayout}/>
         <Route exact path={routes.upload()} component={UploadLayout}/>
     </Switch>

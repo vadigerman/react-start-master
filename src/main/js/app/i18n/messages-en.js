@@ -3,6 +3,7 @@ export default {
     //NavBar
     'app.react.start': 'ReactStart',
     'app.rest.title': 'Rest',
+    'app.counter.title': 'Counter',
     'app.state.title': 'State',
     'app.webSocket.title': 'WebSocket',
     'app.upload.title': 'Upload',
@@ -16,6 +17,7 @@ export default {
     'app.page.rest.text.first': 'We get data from the database of the user table from the server.',
     'app.page.rest.text.second': 'Implemented the ability to add and remove users.',
     'app.page.websocket.text': 'Messaging in the style of WebSocket including the use of STOMP as a sub-protocol.',
+    'app.page.counter.text': 'Test',
 
     // Page Users
     'app.user.table.title': 'Users',

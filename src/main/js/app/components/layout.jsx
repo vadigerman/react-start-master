@@ -26,6 +26,8 @@ export default function IndexLayout(props) {
                             id='app.state.title'/></Button>{` `}
                         <Button color="primary" onClick={() => props.history.push(routers.rest())}><FormattedMessage
                             id='app.rest.title'/></Button>{` `}
+                        <Button color="primary" onClick={() => props.history.push(routers.counter())}><FormattedMessage
+                            id='app.counter.title'/></Button>{` `}
                         <Button color="primary" onClick={() => props.history.push(routers.webSocket())}><FormattedMessage
                             id='app.webSocket.title'/></Button>{` `}
                         <Button color="primary" onClick={() => props.history.push(routers.upload())}><FormattedMessage
